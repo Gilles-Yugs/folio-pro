@@ -1,4 +1,5 @@
 #pragma once
+#include <memory> 
 #include "Human.h"
 #include "Computer.h"
 #include <iostream>

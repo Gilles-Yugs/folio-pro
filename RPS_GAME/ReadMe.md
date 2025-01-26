@@ -26,3 +26,11 @@ The game also includes test cases to ensure the functionality of different compo
 ## Running Tests  
 
 The GameManager class includes a test() method that invokes various test cases to validate functionality. Modify the main function to call GamePlay.test() to run tests.  
+
+## Configuration and build  
+
+```  
+cd build/  
+cmake . -G "MinGW Makefiles"  
+cmake --build .  
+```  
