@@ -15,9 +15,9 @@ The game also includes test cases to ensure the functionality of different compo
 
 - The computer and the human player alternate making moves. Moves can be:  
 
-1. for Paper  
-2. for Scissors  
-3. for Stone  
+1 for Paper  
+2 for Scissors  
+3 for Stone  
 
 - The game ends when either the human or the computer achieves the required number of victories.  
 
