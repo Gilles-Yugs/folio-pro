@@ -38,8 +38,6 @@ classDiagram
     }
 
     class Test {
-        - std::shared_ptr<Human> human
-        - std::shared_ptr<Computer> computer
         - std::istringstream simulatedinput(const std::string& str)
         + static Test& getInstance()
         + void testPlayerClass()
@@ -48,9 +46,22 @@ classDiagram
         + void testGameLogic()
         + void testInvalidInput()
     }
+	
+	class GameManager {
+		- std::shared_ptr<Human> human
+        - std::shared_ptr<Computer> computer
+		- int winCount
+		- std::string humanName
+		- std::string computerName
+		+ void run()
+		+ void test()
+		+ GameManager()
+	}
 
     Player <|-- Human
     Player <|-- Computer
     Game --> Player
     Test --> Game
+	GameManager --> Game
+	GameManager --> Test
 ```

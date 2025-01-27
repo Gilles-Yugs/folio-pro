@@ -10,7 +10,9 @@ private:
 
 	// Number of victories required to win
 	int winCount;
-
+	// Names
+	std::string humanName;
+	std::string computerName;
 public:
 	void run();
 	void test();

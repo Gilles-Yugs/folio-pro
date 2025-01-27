@@ -3,8 +3,6 @@
 
 # Requirements  
 
-```markdown
-
 ## Functional Requirements  
 
 | ID   | Description |
@@ -26,4 +24,3 @@
 | NF2  | The system shall run on both Linux and Windows systems. |  
 | NF3  | The system shall allow easy testability of core functionality. |  
 | NF4  | The code shall be modular and follow object-oriented principles. |  
-```

@@ -2,8 +2,12 @@
 
 GameManager::GameManager()
 {
-	human = std::make_shared<Human>("Player 1");
-	computer = std::make_shared<Computer>("AI");
+	std::cout << "Enter the name of the human player: ";
+	std::cin >> humanName;
+	std::cout << "Enter the name of the computer player: ";
+	std::cin >> computerName;
+	human = std::make_shared<Human>(humanName);
+	computer = std::make_shared<Computer>(computerName);
 	winCount = 3;
 }
 
