@@ -4,12 +4,39 @@
 This project implements a console-based Rock-Paper-Scissors game in C++, where a human player competes against a computer.     
 The game also includes test cases to ensure the functionality of different components. 
 
-## Configuration and build  
+## Windows configuration  
+Build the project  
 ```  
 cd build/  
-cmake . -G "MinGW Makefiles"  
-cmake --build .  
-```   
+cmake -G "Unix Makefiles" .  
+make  
+```  
+fast build rule for target
+```
+run
+```
+Build rule for target
+```  
+rebuild_and_run  
+```  
+Clean build artifacts 
+```  
+clean_all  
+```  
+
+## Unix/Linux configuration  
+Build the project  
+```  
+cd RPS_GAME/  
+make    
+```  
+Clean up build artifacts
+```  
+clean  
+```  
+
+### Clean up build artifacts
+clean
 
 ## How to Play   
 - Run the program.  

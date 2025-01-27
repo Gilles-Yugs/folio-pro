@@ -33,6 +33,16 @@ add_custom_target(clear
   COMMENT "Cleaning build directory (except CMakeLists.txt)"
 )
 
+# Custom clean target
+add_custom_target(clean_all
+    COMMAND ${CMAKE_COMMAND} -E remove_directory ${CMAKE_BINARY_DIR}/out
+    COMMAND ${CMAKE_COMMAND} -E remove_directory ${CMAKE_BINARY_DIR}/obj
+    COMMAND ${CMAKE_COMMAND} -E remove ${CMAKE_BINARY_DIR}/CMakeCache.txt
+    COMMAND ${CMAKE_COMMAND} -E remove ${CMAKE_BINARY_DIR}/Makefile
+    COMMAND ${CMAKE_COMMAND} -E remove ${CMAKE_BINARY_DIR}/cmake_install.cmake
+    COMMENT "Cleaning up build files."
+)
+
 # Custom run target (runs the executable after building)
 add_custom_target(run
   COMMAND ${BUILD_OUTPUT}/rps_executable
