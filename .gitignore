@@ -33,6 +33,7 @@
 
 # Ignore build directories
 [o][O]ut/
+[o][O]bj/
 [o][O]utput/
 bin/
 
