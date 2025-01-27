@@ -11,7 +11,7 @@ cd build/
 cmake -G "Unix Makefiles" .  
 make  
 ```  
-fast build rule for target
+Fast build rule for target
 ```
 run
 ```
@@ -34,9 +34,6 @@ Clean up build artifacts
 ```  
 clean  
 ```  
-
-### Clean up build artifacts
-clean
 
 ## How to Play   
 - Run the program.  
