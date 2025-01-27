@@ -30,3 +30,36 @@
 *.exe
 *.out
 *.app
+
+# Ignore build directories
+[o][O]ut/
+[o][O]utput/
+bin/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeFiles
+cmake_install.cmake
+CTest
+
+# Visual Studio
+.vs/
+[d][D]ebug/
+[r][R]elease/
+*.vcxproj
+*.vcxproj.*
+*.ncb
+*.pdb
+*.idb
+*.opensdf
+*.sdf
+*.bsc
+*.suo
+*.sln
+ipch
+
+# Visual Studio Code
+.vscode/
+.ionide/
+
