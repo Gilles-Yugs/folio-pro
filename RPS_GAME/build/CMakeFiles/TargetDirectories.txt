@@ -1,6 +1,0 @@
-C:/Users/yugsg/Documents/GitHub/folio-pro/RPS_GAME/build/CMakeFiles/rps_executable.dir
-C:/Users/yugsg/Documents/GitHub/folio-pro/RPS_GAME/build/CMakeFiles/clear.dir
-C:/Users/yugsg/Documents/GitHub/folio-pro/RPS_GAME/build/CMakeFiles/run.dir
-C:/Users/yugsg/Documents/GitHub/folio-pro/RPS_GAME/build/CMakeFiles/rebuild_and_run.dir
-C:/Users/yugsg/Documents/GitHub/folio-pro/RPS_GAME/build/CMakeFiles/edit_cache.dir
-C:/Users/yugsg/Documents/GitHub/folio-pro/RPS_GAME/build/CMakeFiles/rebuild_cache.dir
