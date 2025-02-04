@@ -51,7 +51,7 @@ cd ..
 
 This will start the Rock Paper Scissors game in the terminal.  
 
-## Execute the RPS Game  
+## Clean Up  
 
 ```  
 exit  
