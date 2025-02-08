@@ -44,8 +44,7 @@ This will launch the container and place you inside its shell (root directory). 
 
 After successfully building the project, you can run the RPS game executable:  
 
-```  
-cd ..  
+```   
 ./out/rps_executable  
 ```  
 

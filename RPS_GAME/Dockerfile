@@ -35,5 +35,8 @@ RUN cmake .. && cmake --build .
 WORKDIR /RPS_Game/doc
 RUN if [ -f Doxyfile ]; then doxygen Doxyfile; fi
 
+# Return to /RPS_Game directory
+WORKDIR /RPS_Game
+
 # Set the entry point to a shell
 CMD ["/bin/bash"]
